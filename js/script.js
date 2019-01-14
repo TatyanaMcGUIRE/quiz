@@ -13,28 +13,28 @@ $(document).ready(function() {
     });
         
     function questionOne(q1Result){
-        if (q1Result === "Reading"){
+        if (q1Result === "Go home"){
             return 1;
         }
-        else if (q1Result === "Coding"){
+        else if (q1Result === "Go get somethng to eat"){
             return 2;
         }
-        else if (q1Result === "Sports"){
+        else if (q1Result === "Go to afterschool"){
             return 3;
         }
-        else if (q1Result === "Designing"){
+        else if (q1Result === "Hangout with friends"){
             return 4;
         }
     }
     
     function questionTwo(q2Result){
-        if (q2Result === "Pancakes"){
+        if (q2Result === "Beyonce"){
             return 1;
         }
-        else if (q2Result === "Waffles"){
+        else if (q2Result === "Drake"){
             return 2;
         }
-        else if (q2Result === "French Toast"){
+        else if (q2Result === "Rihanna"){
             return 3;
         }
     }
@@ -54,16 +54,16 @@ $(document).ready(function() {
     
   function answer(totalScore){
       if (totalScore <= 4){
-          return "Snapchat";
+          return "your in a great mood";
           
       }
       
      else if (totalScore >4 && totalScore <=  6){
-          return "Instagram";
+          return "you seem to be chillin";
      }
      
      else if(totalScore> 6){
-        return "Facebook";
+        return "your mood is fantas";
      }
           
       
